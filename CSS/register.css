@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+body{
+    margin:0;
+    overflow: hidden;
+    padding: 0;
+    font-family: "Inter",sans-serif;
+}
+
+
+.form{
+    font-family: "Inter",sans-serif;
+    height: 700px;
+}
+
+.left{
+    float:left;
+    background: #0b0423;
+    width: 40%;
+    height: 700px;
+}
+
+.right{
+    float:right;
+    background: #f1f1f1;
+    width: 60%;
+    height: 700px;
+}
+
+#fields{
+    margin-left: 50px;
+
+    margin-top: 50px;
+}
+
+#fields h1{
+
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 0.6;
+}
+
+
+#fields h2{
+    font-weight: 400;
+    font-size: 20px;
+    color:#1e1e1e;
+    margin-bottom: 30px;
+}
+
+#fields strong{
+    color: #4C1EE5;
+    font-weight: 500;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+}
+
+#fields text{
+    font-weight: 400;
+    font-size: 20px;
+    font-style: italic;
+    color:#1e1e1e;
+}
+
+input,label{
+    display: block;
+}
+
+label{
+    font-weight: 600;
+    font-size: 25px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color:black;
+}
+
+input{
+    width: 600px;
+    font-size: 22px;
+    color:#4C1EE5;
+    font-weight: 500;
+    height: 60px;
+    border: 0.5px solid #4C1EE5;
+    padding: 10px;
+    
+}
+
+#submit{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    width: 300px;
+    background: #4C1EE5;
+    font-size: 25px;
+    color:white;
+    font-weight: 500;
+    height: 60px;
+    border: 0.5px solid #4C1EE5;
+    padding: 10px;
+    transition: 0.7s;
+}
+
+#abstract{
+    width:100%;
+}
+
+form a{
+text-decoration: none;
+}
+
+#submit:hover{
+    background-color: white;
+    border: 0.5px solid #4C1EE5;
+    transition: 0.7s;
+    color:#4C1EE5
+}

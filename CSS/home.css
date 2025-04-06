@@ -1,0 +1,96 @@
+body{
+    margin:0;
+    overflow: hidden;
+    padding:0;
+    background-color: white;
+    font-family: "Inter",sans-serif;
+}
+
+nav a:last-child {
+    margin-right: 30px;
+}
+
+nav {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px; 
+    background-color: rgb(255, 255, 255);
+    height: auto; 
+
+    margin-top: 0;
+}
+
+#logo {
+    width: 15%;
+
+    height: auto;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 21px;
+    font-weight: 500;
+    margin: 0; 
+    text-decoration: underline transparent;
+    text-underline-offset: 10px;
+    padding: 10px;
+    transition: 0.8s;
+    margin-left: 10px;
+}
+
+nav a:hover{
+    color: #4C1EE5;
+    text-decoration: underline #4C1EE5;
+    text-underline-offset: 10px;
+    transition: 0.8s;
+}
+
+
+.cre{
+    text-align: center;
+}
+
+.cre h2{
+    font-family: "Inter",sans-serif;
+    font-weight: 600;
+    text-align: center;
+    font-size: 25px;
+    padding-bottom: 30px;
+}
+
+.cre #hero{
+    font-family: "Inter",sans-serif;
+    font-weight: 700;
+    margin-left: 60px;
+    text-align: left;
+    line-height: 0.67;
+    font-size: 70px;
+    color: #4C1EE5;
+    text-decoration: underline;
+    text-underline-offset: 20px;
+    transition: 0.7s;
+}
+
+.cre #nothero{
+    font-family: "Inter",sans-serif;
+    font-weight: 700;
+    width: 80%;
+    margin-left: 60px;
+    text-align: left;
+    font-size: 70px;
+    color: #bfbfbf;
+    text-decoration: none;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+#hero:hover{
+    color:black;
+    transition: 0.7s;
+}

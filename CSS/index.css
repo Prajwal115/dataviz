@@ -1,0 +1,109 @@
+body{
+    margin:0;
+    overflow-x: hidden;
+    padding:0;
+    background-color: azure;
+    font-family: "Inter",sans-serif;
+}
+
+nav a:last-child {
+    margin-right: 30px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px; 
+    background-color: transparent;
+    height: auto; 
+
+    margin-top: 0;
+}
+
+#logo {
+    width: 15%;
+
+    height: auto;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 21px;
+    font-weight: 500;
+    margin: 0; 
+    text-decoration: underline transparent;
+    text-underline-offset: 10px;
+    padding: 10px;
+    transition: 0.8s;
+    margin-left: 10px;
+}
+
+nav a:hover{
+    color: #4C1EE5;
+    text-decoration: underline #4C1EE5;
+    text-underline-offset: 10px;
+    transition: 0.8s;
+}
+
+.main{
+    margin-top: 60px;
+    margin-left:60px;
+
+}
+
+.main h2{
+    margin-top:-20px;
+    font-weight: 500;
+    width: 70%;
+}
+.main strong{
+    color: #4C1EE5;
+}
+#hee{
+
+    text-align: left;
+    font-size: 55px;
+    font-family: "Inter",sans-serif;
+    font-weight: 900;
+}
+
+.left{
+    float:left;
+    width: 50%;
+    height: 500px;
+
+}
+
+.right{
+
+    width: 50%;
+height: 500px;
+    float:right;
+}
+
+#icons{
+    margin: 0;
+    padding: 0;
+    transform: translateY(-145%);
+    position: relative;
+}
+
+#thing{
+    position: relative;
+}
+
+#getst{
+    margin-top: 15px;
+    width: 150px;
+    border-radius: 25px;
+    font-size: 18px;
+    background: #4C1EE5;
+    color: white;
+    font-weight: 550;
+    border:none;
+    padding: 10px;
+    height: 50px;
+}
+
