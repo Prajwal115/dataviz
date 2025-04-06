@@ -85,7 +85,7 @@ It mainly utilises PHP's **exec() function** and text file handling to bind PHP 
 	•	Deploy on a remote server for public access (**Gotta use AWS carefully)💀**
  	•	Fix a lot of UI bugs.
 
- **Thanks a lot to the Web, Google Collab, W3Schools, ChatGPT, Gemini and the internet. **
+ **Thanks a lot to the Web, Google Collab, W3Schools, ChatGPT, Gemini and the internet.**
 
  
  **signing off for now. I will be back to finish this project. _very soon_ This README will also later expand to guide on how to run this locally. Good.. night** 💀🙏🏻
