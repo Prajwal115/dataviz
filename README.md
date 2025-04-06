@@ -32,7 +32,7 @@
 4. PHP communicates with Python scripts to process the data based on user commands.
 5. The response is returned to PHP and displayed in the chat-style interface.
 
-![Architecture Flowchart](res/prajwal/project%20%archievetures.png)
+![Architecture Flowchart](res/prajwal/project%20archievetures.png)
 
 ---
 
